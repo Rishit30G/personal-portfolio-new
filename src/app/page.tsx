@@ -6,30 +6,29 @@ import Projects from "@/sections/Projects";
 import Skills from "@/sections/Skills";
 import Footer from "@/components/Footer";
 
-
 export default function Home() {
   return (
     <div className="bg-black">
-      <main className="max-w-[1440px] mx-auto text-white">
+      <main className="max-w-[1280px] mx-auto text-white ">
           <div>
             <NavBar/>
           </div>
           <div>
             <Main/>
           </div>
-          <div>
+          <div className="max-lg:ml-7 max-lg:mr-7">
             <Experience/>
           </div>
-          <div>
+          <div className="max-lg:ml-7 max-lg:mr-7">
             <Skills/>
           </div>
-          <div>
+          <div className="max-lg:ml-7 max-lg:mr-7">
             <Projects/>
           </div>
-          <div>
+          <div className="max-lg:ml-7 max-lg:mr-7">
             <Contact/>
           </div>
-          <div>
+          <div className="max-lg:ml-7 max-lg:mr-7">
             <Footer/>
           </div>
       </main>

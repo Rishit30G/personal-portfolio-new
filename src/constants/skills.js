@@ -1,0 +1,1 @@
+export const skills = ["Blogging in Hall", "Frontend in Park", "Backend at Pool", "DSA on Desk"];
