@@ -16,7 +16,7 @@ export default function Home() {
           <div>
             <Main/>
           </div>
-          <div className="max-lg:ml-7 max-lg:mr-7 mt-10">
+          <div className="max-lg:ml-7 mt-10">
             <Experience/>
           </div>
           <div className="max-lg:ml-7 max-lg:mr-7">
