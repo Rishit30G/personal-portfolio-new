@@ -59,12 +59,12 @@ const Contact = () => {
 
   return (
     <section id="contact">
-       <h1 className="heading">
+       <h1 className="heading max-lg:ml-7 max-lg:mr-7">
          Get in Touch.
       </h1>
-      <TypewriterEffectSmooth words={wordsContact} />
-      <div className='flex max-lg:flex-col justify-around items-start max-lg:items-center'>
-        <form className='max-xl:w-4/5 w-1/3 flex flex-col gap-10' ref={form} onSubmit={sendEmail}>
+      <TypewriterEffectSmooth words={wordsContact} className="max-lg:ml-7 max-lg:mr-7" />
+      <div className='flex max-lg:flex-col justify-around items-start max-lg:items-center '>
+        <form className='max-xl:w-4/5 w-1/3 flex flex-col gap-10 max-lg:ml-7 max-lg:mr-7' ref={form} onSubmit={sendEmail}>
           <input type="text" name="from_name" placeholder="Name" className="w-full p-2 bg-transparent border-[1px] border-slate-800 focus:outline-none rounded-lg focus:border-white" required autoComplete="off" />
           <input type="email" name="email_sender" placeholder="Email" className="w-full p-2 bg-transparent border-[1px] border-slate-800 focus:outline-none rounded-lg focus:border-white" required/>
           <input type="text" name="subject_sender" placeholder="Subject" className="w-full p-2 bg-transparent border-[1px] border-slate-800 focus:outline-none rounded-lg focus:border-white" required autoComplete="off"/>

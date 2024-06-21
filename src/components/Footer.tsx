@@ -25,8 +25,8 @@ const Footer = () => {
   const words = ["Developed", "Created", "Crafted", "Coded"];
   return (
     <footer className="flex justify-between items-center pt-40 pb-10 text-slate-400">
-     <h1 className="league-spartan text-md"> Copyright © <span className="league-spartan bg-gradient-to-r from-[#ed8936] to-[#ed64a6] bg-clip-text text-transparent">{currentYearRoman}</span></h1>
-     <h1 className="league-spartan text-lg"><span><FlipWords words={words}/></span>by <u><a href={info.footerURL}>{info.name.split(' ')[0]}</a></u></h1>
+     <h1 className="league-spartan text-md max-lg:text-sm"> Copyright © <span className="league-spartan bg-gradient-to-r from-[#ed8936] to-[#ed64a6] bg-clip-text text-transparent">{currentYearRoman}</span></h1>
+     <h1 className="league-spartan text-lg max-lg:text-sm"><span><FlipWords words={words}/></span>by <u><a href={info.footerURL}>{info.name.split(' ')[0]}</a></u></h1>
     </footer>
   )
 }

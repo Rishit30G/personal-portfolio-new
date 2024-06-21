@@ -10,7 +10,7 @@ import {exp1, exp2, exp3, exp4, exp5} from '@/constants/experience';
 const Experience = () => {
   return (
     <section id="experience">
-      <h1 className='heading'>Experience.</h1>
+      <h1 className='heading mt-20'>Experience.</h1>
       <TypewriterEffectSmooth words={wordsExp} />
       <div className='flex justify-between items-center'>
         <TracingBeam> 

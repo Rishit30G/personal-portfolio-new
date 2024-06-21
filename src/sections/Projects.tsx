@@ -21,11 +21,11 @@ const Projects = () => {
         ))}
       </div>
       <div className='flex justify-center items-center m-20'>
-      <a href={moreProjects.url} className="inline-flex items-center justify-center  p-[2px] rounded-lg w-[250px] h-[50px] bg-gradient-to-r from-[#ed8936] to-[#ed64a6]">
-        <button className="flex items-center justify-center w-full h-full bg-black rounded-md max-lg:text-sm" aria-label='more-project-button'>
-          More Projects on
+      <a href={moreProjects.url} className="inline-flex items-center justify-center  p-[1.5px] rounded-lg w-[250px] h-[50px] bg-gradient-to-r from-[#ed8936] to-[#ed64a6]">
+        <button className="flex items-center justify-center w-full h-full bg-black rounded-md max-lg:text-[13px]" aria-label='more-project-button'>
+          More projects on
           <span className="ml-2">  
-            <Image height={8} width={8} src="/assets/github.svg" alt="Github" className='w-8 h-8'/>
+            <Image height={8} width={8} src="/assets/github.svg" alt="Github" className='w-8 h-8 max-lg:w-6 max-lg:h-6'/>
           </span>
         </button>
       </a>

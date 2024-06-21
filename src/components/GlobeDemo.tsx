@@ -396,7 +396,7 @@ export function GlobeDemo() {
 
   return (
     <div className="flex flex-row items-center justify-center  h-screen md:h-auto dark:bg-black bg-white relative w-full">
-      <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-full md:h-[40rem]  px-4">
+      <div className="max-w-7xl w-full relative overflow-hidden h-full md:h-[40rem]">
        
         <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent dark:to-black to-white z-40" />
         <div className="absolute w-full -bottom-20 h-full max-md:h-screen max-md:w-screen ">

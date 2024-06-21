@@ -62,7 +62,7 @@ export const HoverEffect = ({
             <div className="flex justify-between items-center">
               <div>
                 <CardTitle>{item.title}</CardTitle>
-                <h1 className="text-slate-500 text-xl mt-4 leading-normal tracking-wide">{item.designation}</h1>
+                <h1 className="text-slate-500 text-xl mt-4 font-open-sans">{item.designation}</h1>
               </div>
               <div>
                 <img src={item.imageItem} width={20} height={20} className="w-20 h-20 object-cover rounded-full max-lg:hidden" alt="comapny-images" loading='lazy'/>
@@ -110,7 +110,7 @@ export const CardTitle = ({
   children: React.ReactNode;
 }) => {
   return (
-    <h1 className={cn("text-zinc-100 font-bold tracking-wide league-spartan mt-4 text-3xl max-md:text-xl", className)}>
+    <h1 className={cn("text-zinc-100 font-bold tracking-wide league-spartan mt-4 text-4xl max-lg:text-4xl leading-normal", className)}>
       {children}
     </h1>
   );

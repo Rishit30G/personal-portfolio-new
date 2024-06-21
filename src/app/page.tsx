@@ -9,14 +9,14 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <div className="bg-black">
-      <main className="max-w-[1280px] mx-auto text-white ">
+      <main className="max-w-[1280px] mx-auto text-white">
           <div>
             <NavBar/>
           </div>
           <div>
             <Main/>
           </div>
-          <div className="max-lg:ml-7 max-lg:mr-7">
+          <div className="max-lg:ml-7 max-lg:mr-7 mt-10">
             <Experience/>
           </div>
           <div className="max-lg:ml-7 max-lg:mr-7">
@@ -25,7 +25,7 @@ export default function Home() {
           <div className="max-lg:ml-7 max-lg:mr-7">
             <Projects/>
           </div>
-          <div className="max-lg:ml-7 max-lg:mr-7">
+          <div className="">
             <Contact/>
           </div>
           <div className="max-lg:ml-7 max-lg:mr-7">
