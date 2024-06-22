@@ -53,7 +53,7 @@ export const HoverEffect = ({
             )}
           </AnimatePresence>
           <div className="max-lg:mt-8">
-          <div className="absolute top-[10px] left-[15.5rem] max-lg:left-auto max-lg:right-0 max-lg:top-5">
+          <div className="absolute top-[10px] left-[15.5rem] max-lg:left-auto max-lg:right-[20px] max-lg:top-5">
             <h1 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-gray-800 to-gray-600 max-lg:text-4xl max-md:text-3xl text-nowrap">
               {item.date}
             </h1>

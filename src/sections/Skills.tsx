@@ -32,7 +32,7 @@ useEffect(() => {
               particleColor="#c5c5c5"
         />
        <div className='flex max-lg:flex-col gap-2 justify-evenly items-center'>
-       <div className='flex flex-col gap-6 max-lg:max-w-sm'>
+       <div className='flex flex-col gap-6 max-md:max-w-sm'>
       {techstack.map((skillRow, rowIndex) => (
         <div className='flex z-20' key={rowIndex}>
           {rowIndex % 2 === 0 ? (
@@ -50,7 +50,7 @@ useEffect(() => {
       ))}
     </div>
           <div className='flex flex-col gap-0 items-center justify-center'>
-            <Image src={images[currentImageIndex]} alt="skills"  width={400} height={380} className='object-contain w-[400px] h-[380px] max-lg:w-[330px] max-lg:h-[330px] filter grayscale hover:filter-none transition duration-300 ease-in-out z-10 ' />
+            <Image src={images[currentImageIndex]} alt="skills"  width={400} height={380} className='object-contain w-[400px] h-[380px] max-md:w-[330px] max-md:h-[330px] filter grayscale hover:filter-none transition duration-300 ease-in-out z-10 ' />
            <span className='text-xl font-bold font-mono tracking-tight'><FlipWords words={skills}/></span>
           </div>
        </div>
