@@ -6,10 +6,11 @@ export const exp1 = [
       description: 
       [  "Developed and delivered web pages for company's client NextGear Capital.",
         "Worked on Google Tag Manager and Google Analytics and documented the learning journey for the upcoming trainee batch.",
-      "Completed rigorous Full Stack Developer training program.",
-      "Built Movie Library Plugins, Custom themes, worked on REST APIs and CRON jobs for internal projects.",
+      "Successfully completed Full Stack Developer training program.",
+      "Built Movie Library Plugins, Custom Themes in WordPress worked on REST APIs and CRON jobs for internal projects.",
       "Created customizable themes using React and Gutenberg Blocks.",
-      "Optimized web pages with strategies for LCP, FCP, font, and image optimizations."],
+      "Enhanced lighthouse scores for web pages using strategies such as font optimization and image optimization",
+    ],
       link: "https://rtcamp.com",
       date: "Jan-Jun 2024",
       imageItem: "/assets/experience/rtcamp.jpg"
