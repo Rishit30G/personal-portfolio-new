@@ -69,7 +69,7 @@ export const HoverEffect = ({
               </div>
             </div>
             <CardDescription>
-            <ul style={{listStyleType: 'square'}}>
+            <ul style={{listStyleType: 'square'}} className="pl-3">
               {item.description.map((desc, idx) => (
                 <li key={idx} className="mt-2">{desc}</li>
               ))}
