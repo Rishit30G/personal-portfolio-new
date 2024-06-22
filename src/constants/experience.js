@@ -4,12 +4,12 @@ export const exp1 = [
       title: "rtCamp",
       designation: "Software Engineer Trainee",
       description: 
-      [  "Developed and Delivered web pages for our company's client NextGear Capital using Elementor.",
-        "Worked on Google Tag Manager and Google Analytics and documented the implementation for the upcoming trainee batch.",
-      "Completed a rigorous Full Stack Developer training program.",
-      "Built a Movie Library Plugin, custom themes, REST APIs, and CRON jobs for internal projects.",
+      [  "Developed and delivered web pages for company's client NextGear Capital.",
+        "Worked on Google Tag Manager and Google Analytics and documented the learning journey for the upcoming trainee batch.",
+      "Completed rigorous Full Stack Developer training program.",
+      "Built Movie Library Plugins, Custom themes, worked on REST APIs and CRON jobs for internal projects.",
       "Created customizable themes using React and Gutenberg Blocks.",
-      "Optimized web performance with strategies for LCP, FCP, font, and image optimizations."],
+      "Optimized web pages with strategies for LCP, FCP, font, and image optimizations."],
       link: "https://rtcamp.com",
       date: "Jan-Jun 2024",
       imageItem: "/assets/experience/rtcamp.jpg"
@@ -39,11 +39,11 @@ export const exp3 = [
       designation: "Open Source Developer",
       description:
       [
-        "Refactoring Components under Sunbird UCI",
+        "Refactored React JS components in Sunbird UCI project for better performance and readability",
         "Published a socket package under Samagra on npm, used in Amakrushi App for Odisha farmers ",
         "Added Redux to the application for enabling single-state management",
         "Community work: Wrote documentation for the application, Blogs on Turbo Repo, Git & Github",
-        "Top 4 contributors to present my project in the presence of the Ministry of Electronics and Information Technology, Mr. Rajeev Chandrashekhar in DPG Dialogue Summit 2023"
+        "One of the top 4 contributors to present my project in the presence of the Ministry of Electronics and Information Technology, Mr. Rajeev Chandrashekhar in DPG Dialogue Summit 2023"
       ],
       link: "https://codeforgovtech.in",
       date: "Jun-Aug 2023",
@@ -77,7 +77,7 @@ export const exp5 = [
       [
         "First Internship, right after summer vacation of freshman year :)",
         "Worked on UI improvements in React on the admin dashboard pannel for Groundup AI ( Singapore )",
-        "Understood the concepts of sprint planning, daily standups, and code reviews, Jira, and Git",
+        "Understood the concepts of sprint planning, daily standups, code reviews, Jira, and Git",
         "Handled clients and stakeholders for the first time, and learned to communicate effectively with the team",
         "Collaborated with senior flutter developer on crane booking system for Courier24 ( Belgium )",
       ],
