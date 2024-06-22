@@ -11,7 +11,7 @@ const Main = () => {
     <div className='min-h-screen flex items-center justify-evenly max-lg:flex-col max-lg:items-center max-lg:ml-10 mr-10'>
 
       <div className='flex flex-col gap-6 max-lg:mt-20 w-full max-w-lg z-10'>
-      <h1 className="text-5xl league-spartan bg-gradient-to-r from-[#ed8936] to-[#ed64a6] bg-clip-text text-transparent max-md:text-5xl">
+      <h1 className="text-5xl league-spartan bg-gradient-to-r from-[#ed8936] to-[#ed64a6] bg-clip-text text-transparent">
          {info.name}
       </h1>
         <p className='max-w-md text-slate-400 font-normal text-md font-mono leading-relaxed'>{info.description}

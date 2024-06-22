@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Rishit's Porfolio",
-  description: "Generating using Next JS, Tailwind CSS and Acternity UI",
+  description: "Website made using Next JS, Tailwind CSS and Acternity UI",
 };
 
 export default function RootLayout({

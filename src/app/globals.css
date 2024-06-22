@@ -39,4 +39,10 @@
     .heading{
         @apply text-5xl league-spartan bg-gradient-to-r from-[#ed8936] to-[#ed64a6] bg-clip-text text-transparent leading-normal;
     }
+    .navbar-item{
+        @apply absolute left-0 right-0 top-8 h-[0.8px] w-full bg-[#6a6a6a] opacity-0 group-hover:opacity-100 transition-opacity duration-300;
+    }
+    .navbar-responsive-item{
+        @apply text-white text-2xl my-4 z-10;
+    }
 }
