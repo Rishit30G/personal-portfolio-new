@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import {metaData} from '../constants/metadata';
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Rishit's Porfolio",
-  description: "Website made using Next JS, Tailwind CSS and Acternity UI",
+  title: metaData.title,
+  description: metaData.description
 };
 
 export default function RootLayout({
