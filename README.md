@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-This is a personal portfolio website that I have created using Next JS and Acternity UI. This stunning portfolio template is designed to showcase your projects, skills, work experience, and more in a professional and elegant way. It is fully responsive and optimized for all devices. 🚀
+This is a personal portfolio website that I have created using Next JS and Aceternity UI. This stunning portfolio template is designed to showcase your projects, skills, work experience, and more in a professional and elegant way. It is fully responsive and optimized for all devices. 🚀
 
 ## Walk Through Video 📹
 
@@ -9,7 +9,7 @@ https://github.com/Rishit30G/personal-portfolio-new/assets/74411873/a1a8d301-0c9
 ## Tech Stack 🛠️
 
 - [Next JS](https://nextjs.org/)
-- [Acternity UI](https://ui.aceternity.com/)
+- [Acertinity UI](https://ui.aceternity.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
 
 ## Make it yours! 🚀
