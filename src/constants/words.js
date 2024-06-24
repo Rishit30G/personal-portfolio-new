@@ -18,21 +18,21 @@ export const wordsContact = [
 
   export const wordsExp = [
     {
-      "text": "Worked",
+      "text": "Cause",
     },
     {
-      "text": "with",
+      "text": "that",
     },
     {
-      "text": "these",
+      "text": "makes",
     },
     {
-      "text": "awesome",
+      "text": "the",
     },
     {
-      "text": "companies",
+      "text": "journey",
     },
     {
-      "text": ":)",
+      "text": "worthwhile",
     },
   ]

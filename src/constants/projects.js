@@ -62,7 +62,6 @@ const project3 = [
       name: "JavaScript", 
       image: 
       "/assets/javascript.svg"
-
   }, 
 ];
 

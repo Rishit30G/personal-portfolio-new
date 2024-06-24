@@ -1,6 +1,6 @@
 export const info = {
         name: 'Rishit Gupta.', 
-        description: 'I\'m a passionate software developer who loves to build things for the web, I have recently graduated with B.Tech in Computer Science and Engineering. I have over 1+ year of experience in building web applications and always on a lookout for new opportunities to learn, grow and bring me out of my comfort zone :p',
+        description: 'I\'m a passionate software developer with a B.Tech in Computer Science and Engineering and over a year of experience in building web applications and problem solving. With a strong knack for software development and involvement in open source contriubtion, I am always seeking opportunities to learn, grow, and challenge myself.',
         imageUrl: '/assets/profile.jpg',
         githubURL: 'https://github.com/Rishit30G', 
         githubIcon:'/assets/github.svg',
