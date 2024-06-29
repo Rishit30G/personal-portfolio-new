@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
 import { GlobeDemo } from "../components/GlobeDemo";
@@ -11,10 +11,11 @@ import { wordsContact } from "@/constants/words";
 const Contact = () => {
 
   const form = useRef<HTMLFormElement>(null);
+  const [disabled, setDisabled] = useState<boolean>(false);
 
   const sendEmail = (e: React.FormEvent) => {
     e.preventDefault();
-
+    setDisabled(true);
    
     const Toast = Swal.mixin({
       toast: true,
@@ -46,6 +47,8 @@ const Contact = () => {
         icon: "error",
         title: "Message failed to send!"
       });
+    }).finally(() => {
+      setDisabled(false);
     });
   }
   else{
@@ -70,7 +73,7 @@ const Contact = () => {
           <input type="text" name="subject_sender" placeholder="Subject" className="w-full p-2 bg-transparent border-[1px] border-slate-800 focus:outline-none rounded-lg focus:border-white" required autoComplete="off"/>
           <textarea name="message_sender" placeholder="Message" className="w-full p-2 bg-transparent border-[1px] border-slate-800 focus:outline-none rounded-lg h-32 focus:border-white" required autoComplete="off"></textarea>
           <div className="flex justify-end m-0 p-0">
-          <button type="submit" value="Send" className=" text-white p-[2px] rounded-lg w-[100px] h-[40px] bg-gradient-to-r from-[#ed8936] to-[#ed64a6]" aria-label='send-button'>
+          <button type="submit" value="Send" className=" text-white p-[2px] rounded-lg w-[100px] h-[40px] bg-gradient-to-r from-[#ed8936] to-[#ed64a6]" aria-label='send-button' disabled={disabled}>
             <span className="bg-[#000000] rounded-md w-full h-full flex items-center justify-center">
               Send
             </span>
