@@ -1,5 +1,22 @@
 
 export const exp1 = [
+  {
+    title: "rtCamp",
+    designation: "Software Engineer ",
+    description: 
+    [ 
+      "Offererd Full Time Role after successful completion of Trainee Program", 
+      "Working with Nextiva (US based staff augmentation project) as a Full Stack Developer",
+      "Migrating the client's website to WordPress using ACF Blocks",
+    
+  ],
+    link: "https://rtcamp.com",
+    date: "Aug 2024",
+    imageItem: "/assets/experience/rtcamp.jpg"
+  },
+]
+
+export const exp2 = [
     {
       title: "rtCamp",
       designation: "Software Engineer Trainee",
@@ -17,7 +34,7 @@ export const exp1 = [
     },
   ]
   
-export const exp2 = [
+export const exp3 = [
     {
       title: "Interview Ready",
       designation: "HLD Technical Writer",
@@ -34,7 +51,7 @@ export const exp2 = [
     },
   ]
   
-export const exp3 = [
+export const exp4 = [
     {
       title: "Code For GovTech", 
       designation: "Open Source Developer",
@@ -53,7 +70,7 @@ export const exp3 = [
     }
   ]
   
-export const exp4 = [
+export const exp5 = [
     {
       title: "Prodigal AI",
       designation: "Software Engineer Intern",
@@ -70,7 +87,7 @@ export const exp4 = [
     },
   ]
   
-export const exp5 = [
+export const exp6 = [
     {
       title: "Juppiter AI Labs",
       designation: "Flutter & Frontend Intern",
